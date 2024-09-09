@@ -1,0 +1,1970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profile.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">John Emmard Nava</h1>
+
+          <p class="title">Cyber Security</p>
+          
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:emmardnava26@gmail.com" class="contact-link">emmardnava26@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+63 963 460 7559" class="contact-link">+63 963 460 7559</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">October 3, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>GMA, Cavite, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/johnemmard.nava/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/john-emmard-nava-14a4942a9/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/mmrd_nv/?next=%2F" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfsdLGLWgVDnbghNgqMgFjKlbhWXKWVsxbPhFrtPzlHZBmVPBdBSNpcbhCQZDlMNxcgjHL" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m a  BSIT student from the Polytechnic University of the Philippines, 
+            Biñan, with a passion for exploring new areas in technology
+          </p>
+
+          <p>
+            Throughout my journey, I’ve gained experience in graphic design, programming, SQL, web development,
+             game development, and 3D. However, cybersecurity has always been my true calling. I am continuously 
+             learning and building my skills in this field. As an adaptive and driven IT student, I’m eager to take 
+             on new challenges, grow, and contribute to the success of any team or company I become part of.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/stalking.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  Specializing in log analysis, malware analysis, AWS security, and incident response.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/app-development.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Working with HTML, CSS, JavaScript, and CMS like Joomla.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/programming.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  Proficient in Java, C#, and Python.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/illustration.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                <p class="service-item-text">
+                  Using Autodesk Sketchbook, Photoshop, and Blender for 3D.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Character Reference</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Helgen Kern Sario </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Sr Cyber Threat Engineer | Trustwave <br>
+                    09177610980 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rowell L. Marquina, MIT</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Professional Lecturer, PUP Biñan | SHS Teacher, Tunasan NHS<br>
+                    09154890655
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Michael Anjelo O. Miguel, MIT</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    IT Professor | PUP Biñan<br>
+                    09204988487
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Elmer R. Nava</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Operations Manager | Jantro & Jarton Security Agency Inc<br>
+                   09166051486
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+                <p>
+                 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Recent Obtained Badges</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/badge/aws.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/badge/malware.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/badge/windows.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/badge/can.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/badge/CyberEssentials.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/badge/I2CS__1_.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educational Background</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Polytechnic University of the Philippines - Biñan Campus</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Information Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">General Mariano Alvarez Integrated Senior High School</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Academic Track - Accountancy and Business Management
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">General Mariano Alvarez Technical High School</h4>
+
+              <span>2014 — 2018</span>
+
+              <p class="timeline-text">
+                Yes-O: Ambassador (Mr. Eco-Warrior 2018)<br>
+                Teen Health Club: Member<br>
+                Supreme Student Government: PO2 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cybersecurity Learner | Let's Defend | Online Learning Platform</h4>
+
+              <span>July 1, 2024 - September 1, 2024</span>
+
+              <p class="timeline-text">
+                o Cryptography <br>
+                o Malware Analysis <br>
+                o Detecting a Command Injection Attack <br>
+                o Detecting Brute Force Attacks <br>
+                o Detecting Directory Traversal Attacks <br>
+                o Detecting IDOR Attacks <br>
+                o Detecting LFI <br>
+                o Detecting Open Redirection Attacks <br>
+                o Detecting XML Attack <br>
+                o Detecting XSS Attacks <br>
+                o Detecting Open Redirection Attack <br>
+                o Detecting SQL Injection Attack<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cybersecurity Intern | ByteUprise | India</h4>
+
+              <span>July 25, 2024 - August 25, 2024</span>
+
+              <p class="timeline-text">
+                o Password Complexity Checker <br>
+                o Malware Analysis Simple Keylogger<br> 
+                o Caesar Cipher <br>
+                o Network Packet Analyzer<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IT Assistant | Jantro & Jarton Security Agency Inc. | Binan, Laguna</h4>
+
+              <span>March 12, 2024 — June 21, 2024</span>
+
+              <p class="timeline-text">
+                o Multimedia and Production <br>
+                o System Developer <br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Designer | ERN Gamefarm | Carmona, Cavite</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                o Graphic Artist 
+              </p>
+
+            </li>
+
+          </ol>
+
+           <!-- Resume Download Button -->
+            <a href="./assets/images/Nava_Resume (2).pdf" download="Resume.pdf" class="download-btn">
+              Download Resume
+            </a>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Malware Analysis</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Log Analysis</h5>
+                <data value="69">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cybersecurity</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic Design</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cybersecurity</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic Design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/11GoqoqJKVTVDmTuJuqU0jSXwJVU7qYlS/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/BF.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bruteforce Case</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1ZYcjY5ZP4vJOau7oV8Rf8pouprOJgHE6/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/CIA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Command Injection Attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1uZ14YHyNrGTcSqseyCA4stxkx9yIvyWl/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/BFA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brute Force Attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1jpQ45DY724l4brEmX1TxY9XHS0RvWiRY/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DTA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Directory Traversal Attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1x83DNY4hd1LKhVN-JCDxRs63ALHawKRJ/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/IDORA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IDOR Attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1C9fBG1VximdxaoIL1jJ4V6QQVodb7lyZ/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/LFI.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LFI & RFI Attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1s9hoyHowy5Zk4rD3eVIC-OC9U0zgdRS0/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/XMLA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XML Attack</h3>
+
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1RXa1lDo4UpOmG8bpTNggl5GrT3N_4W2o/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/XSSA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XSS Attack</h3>
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1lRq0T0ikfFQkQOwqW_n-P104LnvTcajx/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Malware Analysis</h3>
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1_QxnEOZ6_-K4a2A5YbqzYJ1kWd3IO1ia/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/WS.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Malware Traffic Analysis with Wireshark</h3>
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1OpZoLwFPwjveuOM5y2o6aRNmoPJ4Zrcz/edit?usp=sharing&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ORA.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Open Redirection Attack</h3>
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://docs.google.com/document/d/1Ej31bVJ5pwkjCwuFDUuVYoYpJRbDxUU6/edit?usp=drive_link&ouid=105885474047851316362&rtpof=true&sd=true">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/SQL.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SQL Injection Attack</h3>
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://github.com/johnemmardn/BYTEUPRISE_CS_01.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PC.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Password Complexity</h3>
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+              <li class="project-item  active" data-filter-item data-category="cybersecurity">
+                <a href="https://github.com/johnemmardn/BYTEUPRISE_CS_02.git">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/KL.jpg" alt="summary" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Keylogger</h3>
+                  <p class="project-category">Cybersecurity</p>
+  
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="cybersecurity">
+                <a href="https://github.com/johnemmardn/BYTEUPRISE_CS_03.git">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/CS.jpg" alt="summary" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Caesar Cypher</h3>
+                  <p class="project-category">Cybersecurity</p>
+  
+                </a>
+              </li>
+
+            </li>
+            <li class="project-item  active" data-filter-item data-category="cybersecurity">
+              <a href="https://github.com/johnemmardn/BYTEUPRISE_CS_04.git">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/NPA.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Network Packet Anlyzer</h3>
+                <p class="project-category">Cybersecurity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/TECHMATE.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Techmate</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/HP.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">HP POS</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/1.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Handbooks</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/2.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Flyers</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/3.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mockup Designs</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/4.4.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tarpaulin</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/5.5.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Info-graphics</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/6.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PUBMATS</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/1.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Page Postings</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/8.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DP Blast</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PORTFOLIO/9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Poster Making</h3>
+
+                <p class="project-category">Graphic Design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="certificates">
+
+        <section class="blog-posts">
+        <div class="sidebar">
+          <button class="dropdown-btn">Badges 
+            <i class="arrow-down">&#9660;</i>
+          </button>
+          <div class="dropdown-container">
+            <!-- Cisco Dropdown -->
+            <button class="sub-dropdown-btn">CISCO Networking Academy® 
+              <i class="arrow-down">&#9660;</i>
+            </button>
+            <div class="sub-dropdown-container">
+              <a href="https://www.credly.com/badges/6c03ab7a-e185-4a0f-85c6-615afceeae1e/public_url">Cybersecurity Essentials</a>
+              <a href="https://www.credly.com/badges/64087431-48bf-46fa-b6c7-a359b73cb99b/public_url">Introduction to Cybersecurity</a>
+            </div>
+
+              <!-- ISC2 Dropdown -->
+              <button class="sub-dropdown-btn">ISC2™
+                <i class="arrow-down">&#9660;</i>
+              </button>
+              <div class="sub-dropdown-container">
+                <a href="https://www.credly.com/badges/0a3a3d01-200a-4966-a2c8-6d94d06c11ba">ISC2™ Candidate</a>
+              </div>
+      
+            <!-- Let's Defend Dropdown -->
+            <button class="sub-dropdown-btn">Let's Defend 
+              <i class="arrow-down">&#9660;</i>
+            </button>
+            <div class="sub-dropdown-container">
+              <a href="https://app.letsdefend.io/my-rewards/detail/567adfc2-c93c-4d53-ac82-aec2db802318">10 Day Streak - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/de124e0c-9b87-423b-bb01-bc6258d37c18">Amazon Virtual Private Cloud (VPC) - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/db401e62-5531-44bc-897e-f3e6034172e4">AWS CloudTrail: Unveiling AWS Account Activity - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/b3b5efab-8228-4e70-b66c-bb92a76f00a3">AWS CloudWatch - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/a1c1111c-69bf-47bc-94d5-d108166655a4">AWS GuardDuty for Blue Team - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/e4805c1d-a279-4bb3-be15-4b4684fbfcc4">AWS Identity and Access Management - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/3d08f520-ca59-4a37-a386-fc04a3b02664">AWS Incident Handler - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/f9c43164-9ef4-4b07-aa83-6f44073bd9a4">AWS Incident Manager - System Manager - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/598fd497-95e7-429e-a11b-5d0db6fe23fe">AWS Responder - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/68a884fa-b056-42ef-ad4c-8c0ff72060e9">AWS S3 Basics - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/9638dad3-dd1b-47b5-a88f-a2773e57a339">AWS Shield - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/08ca7890-b0d0-4d74-a283-959883615df8">AWS WAF: Defending Web Applications in the Cloud - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/4d5b0393-88cc-4998-b3c3-3033089c9540">Brute Force - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-badges/detail/7c5f836f-b835-44fd-aaf9-5da7c931d44d">CompTIA CySA+ Preparation Path - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/2800ae0d-063a-42cf-884a-05735891675a">Cryptographer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/5da2b15c-86da-4112-a6b2-a854d3928558">Cyber Kill Chain - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-badges/detail/305c0a3a-1db0-4ebb-9aef-f2cfa2678a7d">Cybersecurity for Students - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/1d9151d5-b5bc-40f4-85f8-127b612eaa73">Dynamic Analyst - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/772a4844-ee22-457b-b448-9f3665f1d3d2">First Blood - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/70133d97-0899-45f9-adfe-162b07dd54b9">How to Investigate a SIEM Alert? - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/127782f4-0132-4c2f-a508-ffcaa047e5a6">Incident Handler - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/c85a702c-ec58-4807-b021-3173ee1e585b">Incident Management - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/b55dc355-95a6-49c3-9366-977dd9623702">Introduction to Python - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/4404d57e-df4f-415e-bf18-81b26e00d314">IT Security Expert - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/2428106b-a033-476d-91ab-0365bf1eee4d">Job Hunter - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/7250961a-bb23-4c4e-93c7-90c622c0dd34">Lab Builder - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/c85a956b-ef3e-49fa-a9e9-dc75f12376e3">Lab Builder - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/f313dfe0-aff4-4e59-abbc-c294c1ba445a">Linux Fan - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/28fed88a-5550-4c50-aedc-32687c5961d0">Linux Memory Forensics - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-badges/detail/30052428-cb6d-48bd-99bb-0dec88a373af">Malware Analysis Skill Path - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/e58a85e4-71b0-4d74-a0ee-266c8089dd71">Malware Analyzer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/7882dd68-2220-4289-a977-a915180c8d0a">MITRE ATT&CK - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/2f283f6b-2d7e-4588-a390-846ee5173514">MSHTML Analyzer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/05804801-bef1-46a8-a929-f424009ec609">Network Analyzer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/5da00741-ae63-477c-943f-964cc948ab04">Network Cable - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/5b6c19f9-5a7b-4992-9e21-460b4b33ae7e">Network Engineer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/1c0dd569-4d19-4cd4-86e5-91f55970578d">Network Security Designer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/fe20f486-9de0-4886-a12e-5da788c60ff7">Office Document Analyzer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/c14d3687-3b00-45cb-a8e1-1bc5468cae19">Packet Analyzer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/8eb28c9c-8b4a-4be7-b5dc-f295435acf5f">Phishing Expert - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/5a777ba6-3118-4032-9d7b-3d7f22424d0e">Protocol Engineer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/7de18865-56c2-4913-a9e7-10c4ebb1b08c">Protocol Handler - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/ea554587-795a-4d11-b3e3-33b84422778f">Reporter - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/5fca82cc-d97a-46da-8dd3-324c9658d74e">Responder - Linux - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/0563bbd1-5fda-41fd-9837-47618bc863e2">Responder - Windows - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/d73f2775-57dd-4933-be9f-9df712ddf8fe">Reverser - 2 - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/9e6887ba-3e1e-484a-b1b0-223c9a296a67">Reverser - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/1abdcf0e-29fd-4943-b629-c61c437d5a29">Secure Network Designer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/c768c65f-654a-4a97-b336-117a483e82b6">Security Audit and Testing - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/fe14b35a-da2b-448a-9039-3ec09379073c">Security Solutions - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/967dc113-deae-45b3-98a6-7d068e2ca4b4">SIEM 101 - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/3bfa6059-40d8-4826-94ac-ad8f1e9b970a">SIEM Basics, Installation and Configuration - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/3931d649-6232-40ef-9544-349b4d1ac6ee">SOAR Fundamentals - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-badges/detail/7a11e656-2de4-485a-8dd3-14c7ab35e3de">SOC Analyst Learning Path - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/7a32e717-0795-4492-a05a-96d2a1158150">SOC Member - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/088644c1-8246-4c3d-8d2e-4184ed29b01d">Splunk Engineer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/ef5f9ad2-6646-40df-bebf-b57a4434ad7b">Static Analyzer - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/fece68ea-4a85-410f-a993-9142a8499b7b">Threat Analyst - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/8e379ce4-e28a-4c9a-9e04-2b8600aee757">Threat Hunting and IR with XDR/EDR - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/ed20e1d5-05fa-4634-ba9f-c47725c35a64">VirusTotal - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/a95f71ea-4966-48b3-a43f-e907091af3fd">Vulnerability Management - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/e3d9b2f5-e940-4498-8d2f-2c8e8a9af3ae">Web Attack Investigated - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/cda87c15-8eac-481b-ad59-429f88e78c49">Web Attack Investigator - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/3d2908bb-9d29-4f3c-9f2f-961c301fad2d">Web Hunter - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/533c9639-1d96-4a3e-8021-8e6cc2113d2b">Windows Memory Forensics - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/068ca9f5-7cd7-4e67-a9a7-55e86ef22eb7">Windows User - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/34fb16ae-241a-4b02-9b68-097d4ef199b5">Wireshark Expert - LetsDefend</a>
+<a href="https://app.letsdefend.io/my-rewards/detail/031d9cf6-517f-4978-abe5-0c227560604a">XLS Detector - LetsDefend</a>
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-posts"><br>
+        <header class="h2 article-title">ByteUprise </header>
+        <ul class="blog-posts-list">
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/certs/16.png" alt="Design conferences in 2022" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category"></p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Issued on: 25 Aug 2024</time>
+                </div>
+
+                <h3 class="h3 blog-item-title"> Cybersecurity Internship Completion </h3>
+
+                <p class="blog-text">
+                  Successfull four week virtual internship specializing cybersecurity
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+        </ul>
+      </section>
+
+
+      <section class="blog-posts"><br>
+        <header class="h2 article-title">Jantro & Jarton Security Agency Inc</header>
+        <ul class="blog-posts-list">
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/certs/15.jpg" alt="Design conferences in 2022" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category"></p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Issued on: 18 Jun 2024</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Internship Completion </h3>
+
+                <p class="blog-text">
+                 Onsite On-The-Job Training in ITEC 199 (Practicium)
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="blog-posts"><br>
+        <header class="h2 article-title">CISCO Networking Academy® </header>
+        <ul class="blog-posts-list">
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/certs/8.png" alt="Design conferences in 2022" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category"></p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Issued on: 12 Jun 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title"> Introduction to Cybersecurity</h3>
+
+                <p class="blog-text">
+                  Non-transferable, valid for 3 years from the date of issue
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/certs/9.png" alt="Design conferences in 2022" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category"></p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Issued on: 12 Jun 2023</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Cybersecurity Essentials</h3>
+
+                <p class="blog-text">
+                  Non-transferable, valid for 3 years from the date of issue
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+
+
+
+        </ul>  
+      </section>
+
+        <section class="blog-posts"><br>
+          <header class="h2 article-title">ISC2™</header>
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/1.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Issued on: 30 June, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Domain 1: Security Principles</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/2.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 02 July, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Domain 2: Incident Response,
+                    Business Continuity and
+                    Disaster Recovery Concepts</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/3.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 05 July, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Domain 3: Access Control
+                    Concepts</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/4.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 10 July, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Domain 4: Network Security</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/5.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 21 July, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Domain 5: Security Operations</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/6.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 25 July, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Course Conclusion & Final
+                    Assessment</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/7.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 25 July, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Certified in Cybersecurity (CC)</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+
+          </ul>
+
+        </section>
+        
+        
+        <section>
+          <header class="h2 article-title">Let's Defend</header>
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/10.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 03 Aug, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Cybersecurity for Student</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/11.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 26 Aug, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">SOC Analyst</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/12.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 27 Aug, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Malware Analysis Skill</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/13.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 31 Aug, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">CompTIA CySA+ Preparation</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/certs/14.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"> Issued on: 01 Sep, 2024
+                    </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AWS Security</h3>
+
+                  <p class="blog-text">
+                    Non-transferable, valid for 3 years from the date of issue
+                  </p>
+
+
+                </div>
+
+              </a>
+            </li>
+
+
+
+
+        </section>
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30928.196019362167!2d120.99704295790568!3d14.310009159409653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d65be8392e2b%3A0xdadd291f12b09cb4!2sGeneral%20Mariano%20Alvarez%2C%20Cavite!5e0!3m2!1sen!2sph!4v1725360051933!5m2!1sen!2sph" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+      
+          <form id="contact-form" class="form">
+              <div class="input-wrapper">
+                  <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+                  <input type="email" name="email" class="form-input" placeholder="Email address" required>
+              </div>
+      
+              <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+      
+              <button class="form-btn" type="submit">
+                  <ion-icon name="paper-plane"></ion-icon>
+                  <span>Send Message</span>
+              </button>
+          </form>
+      </section>
+      
+
+      
+    
+
+
+
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
